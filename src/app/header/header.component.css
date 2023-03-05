@@ -1,0 +1,33 @@
+:host {
+  width: 100%;
+  height: 70px;
+  background-color: #2d7ed0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+img {
+  margin-left: 12px;
+  cursor: pointer;
+}
+.feedback {
+  height: 165px;
+  width: 50px;
+  border-radius: 10px 0 0 10px;
+  background-color: #30609b;
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  top: 50vh;
+  font-size: 22px;
+  color: #fff;
+  writing-mode: vertical-lr;
+  text-align: center;
+  padding-left: 18px;
+  box-sizing: border-box;
+  cursor: pointer;
+}

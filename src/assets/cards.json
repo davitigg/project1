@@ -1,0 +1,181 @@
+{
+    "პროტოკოლები": [
+        {
+            "name": "გადამხდელის შესახებ საჯარო ინფორმაცია",
+            "updateDate": "2023-02-02",
+            "postman": false
+        },
+        {
+            "name": "ზედნადები",
+            "updateDate": "2016-07-28",
+            "postman": true
+        },
+        {
+            "name": "ანგარიშ-ფაქტურა",
+            "updateDate": "2022-11-16",
+            "postman": true
+        },
+        {
+            "name": "ნსაფ",
+            "updateDate": "2016-06-14",
+            "postman": true
+        },
+        {
+            "name": "ნსაფ ელექტრონული ჟურნალების სახელმძღვანელო",
+            "updateDate": "2015-07-14",
+            "postman": false
+        },
+        {
+            "name": "საგადასახადო დოკუმენტი",
+            "updateDate": "2021-02-16",
+            "postman": true
+        },
+        {
+            "name": "დაქირავებულ პირთა რეესტრი",
+            "updateDate": "2022-01-17",
+            "postman": true
+        },
+        {
+            "name": "Duty-Free",
+            "updateDate": "2020-11-30",
+            "postman": false
+        },
+        {
+            "name": "Duty-Free სახელმძღვანელო",
+            "updateDate": "2015-10-09",
+            "postman": false
+        },
+        {
+            "name": "საფოსტო გზავნილები",
+            "updateDate": "2017-01-17",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test",
+            "updateDate": "2023-01-01",
+            "postman": false
+        }
+    ],
+    "აპლიკაციები": [
+        {
+            "name": "test1",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test2",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test3",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test4",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test5",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test6",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test7",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test8",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test9",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test10",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test11",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test12",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test13",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test14",
+            "updateDate": "2023-01-01",
+            "postman": false
+        },
+        {
+            "name": "test15",
+            "updateDate": "2023-01-01",
+            "postman": false
+        }
+    ]
+}

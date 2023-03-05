@@ -1,0 +1,169 @@
+@import url("https://free.bboxtype.com/embedfonts/?family=FiraGO:300,400,700");
+
+:host {
+  display: block;
+  width: 1000px;
+  margin: 70px auto 0 auto;
+  font-family: FiraGO, sans-serif;
+}
+.support {
+  font-size: 14px;
+  font-weight: 400;
+  color: #000;
+  margin: 0 10px;
+  padding: 15px 0;
+}
+.support a {
+  color: #2c7ecf;
+}
+hr {
+  background-color: #e6e6e6;
+  height: 1px;
+  border: none;
+  position: absolute;
+  margin: 0;
+  right: 0;
+  width: 100%;
+}
+.tab {
+  margin: 70px 10px 20px 10px;
+  display: flex;
+  justify-content: center;
+}
+.tab button {
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 0 14px;
+  margin: 0 30px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #959595;
+  font-family: inherit;
+}
+.tab button.active {
+  box-shadow: 0 -2px #000 inset;
+  color: #000;
+}
+.search {
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  border-bottom: 1px solid #b4b4b4;
+}
+.search-icon {
+  width: 27px;
+  height: 27px;
+}
+.search input {
+  width: 100%;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: #b4b4b4;
+  margin-left: 10px;
+  font-family: inherit;
+  font-weight: 300;
+}
+.search input::placeholder {
+  color: #b4b4b4;
+}
+.card-list {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex: 0 0 180px;
+  box-sizing: border-box;
+  width: 180px;
+  height: 210px;
+  background-color: #e8e1e1;
+  border-radius: 10px;
+  margin: 10px;
+  clip-path: polygon(0 0, 70% 0, 100% 20%, 100% 100%, 0 100%);
+  position: relative;
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.card-fold {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30%;
+  height: 20%;
+  background-color: #f7f2f2;
+  border-radius: 0 0 0 10px;
+  filter: drop-shadow(-3px 3px 3px rgba(0, 0, 0, 0.1));
+}
+.adobe-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 14px;
+  left: 14px;
+}
+.card h4 {
+  color: #744646;
+  opacity: 0.8;
+  margin: 10px 0 10px 0;
+}
+.card h6 {
+  color: #ae9393;
+  font-weight: 400;
+  margin: 0 0 0 0;
+}
+.postman {
+  border-top: 1px solid #959595;
+  display: flex;
+  align-items: center;
+  width: auto;
+  cursor: pointer;
+}
+.postman-icon {
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  opacity: 0.8;
+}
+@media screen and (max-width: 1200px) {
+  :host {
+    width: 800px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  :host {
+    width: 600px;
+  }
+}
+@media screen and (max-width: 800px) {
+  :host {
+    width: 400px;
+  }
+  .tab button {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  :host {
+    width: 400px;
+  }
+  .card-list {
+    display: block;
+  }
+  .card {
+    margin: 20px auto;
+  }
+}
+@media screen and (max-width: 450px) {
+  .support {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,53 @@
+<div class="support">
+  <span>კითხვების შემთხვევაში, მოგვწერეთ&nbsp;</span>
+  <a href="mailto:api-support@rs.ge">api-support@rs.ge</a>
+</div>
+<hr />
+<div class="tab">
+  <button
+    [ngClass]="{ active: tabs['პროტოკოლები'] }"
+    value="პროტოკოლები"
+    (click)="display($event)"
+  >
+    პროტოკოლები
+  </button>
+  <button
+    [ngClass]="{ active: tabs['აპლიკაციები'] }"
+    value="აპლიკაციები"
+    (click)="display($event)"
+  >
+    აპლიკაციები
+  </button>
+</div>
+<div class="search">
+  <img class="search-icon" src="assets\search-icon.svg" />
+  <input
+    type="text"
+    [(ngModel)]="filter"
+    (input)="filterCards($event)"
+    placeholder="ძებნა {{
+      activeTab == 'პროტოკოლები' ? 'პროტოკოლში' : 'აპლიკაციაში'
+    }}"
+  />
+</div>
+<div class="card-list">
+  <div
+    *ngFor="let card of cards"
+    [ngStyle]="{
+      'background-color': activeTab === 'აპლიკაციები' ? '#d9eedd' : ''
+    }"
+    class="card"
+  >
+    <div class="card-fold"></div>
+    <img class="adobe-icon" src="assets\adobe-acrobatreader.svg" />
+    <h4>{{ card.name }}</h4>
+    <div *ngIf="card.postman" (click)="postman()" class="postman">
+      <img class="postman-icon" src="assets\postman-icon.svg" />
+      <h4>Postman</h4>
+    </div>
+    <h6>
+      განახლება:
+      {{ card.updateDate | date : "dd-MMM-y" : undefined : "ka-GE" }}
+    </h6>
+  </div>
+</div>
